@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+
+input.ng-touched.ng-invalid {
+    border: 2px solid #dc3545;
+}
+
+div.validation-error {
+    width: 100%; 
+    margin-top: .25rem; 
+    font-size: 80%; 
+    color: #dc3545;
+}
+
+/* #toast-container > div {
+    opacity:4;
+}
+
+
+#toast-container > div {
+    opacity: 1;
+  }
+  .toast {
+    font-size: initial !important;
+    border: initial !important;
+    backdrop-filter: blur(0) !important;
+  }
+  .toast-success {
+    background-color: #51A351 !important;
+  }
+  .toast-error {
+    background-color: #BD362F !important;
+  }
+  .toast-info {
+    background-color: #2F96B4 !important;
+  }
+  .toast-warning {
+    background-color: #F89406 !important;
+  } */

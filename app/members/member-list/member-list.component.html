@@ -1,0 +1,22 @@
+<table class="table table-hover">
+  <thead>
+    <th>Fullname</th>
+    <th>Skill(s)</th>
+    <th>Task</th>
+    <th>Mobile</th>
+    <th></th>    <!-- for the edit button-->
+    <th></th>    <!-- for the delete button-->
+  </thead>
+  <tbody>
+    <tr *ngFor="let member of membersList">
+        <td> {{ member.fullname }} </td>
+        <td> {{ member.skill }} </td>
+        <td> {{ member.task }} </td>
+        <td> {{ member.mobile }} </td>
+        <td> <a class="btn text-success"> <i (click)="onEdit(member)" class="fa fa-edit"></i> </a> </td>
+        <td> <a class="btn text-danger"> <i (click)="onDelete(member.id)" class="fa fa-trash"></i> </a> </td>
+    </tr>
+  </tbody>
+</table>
+
+
